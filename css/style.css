@@ -1,0 +1,56 @@
+* {
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+}
+
+:root {
+	--primary-color: #b09797;
+	--secondary-color: #5f4040;
+	--black-color: #000000;
+	--white-color: #ffffff;
+	--gray-color: #656565;
+	font-family: "Helvetica Neue", Helvetica, Arial;
+}
+
+.main-padding-x {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.main-padding-y {
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--black-color);
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.logo {
+	color: var(--gray-color);
+	font-size: 2rem;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 2rem;
+}
+
+nav a {
+	color: var(--white-color);
+	font-size: 1.5rem;
+}
